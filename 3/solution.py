@@ -34,7 +34,7 @@ def solve_part2():
             # put each rucksack's data in set
             group_rucksacks_sets = []
             for rucksack in group_rucksacks:
-                items_set = set(list(rucksack))
+                items_set = set(rucksack)
                 group_rucksacks_sets.append(items_set)
             
             # get element that appears in each rucksack    
